@@ -6,7 +6,7 @@ DOCKER_TAG=latest
 
 GIT_REPO=https://github.com/OpenROV-forks/uWebSockets
 GIT_BRANCH=enhancement/staticbuild
-GIT_TAG=b3b15a1
+GIT_TAG=3b169fc
 
 docker:
 	docker build -t ${DOCKER_CONTAINER} .
